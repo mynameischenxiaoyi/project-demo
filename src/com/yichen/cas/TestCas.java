@@ -6,7 +6,7 @@ public class TestCas {
     public static void main(String[] args) {
         AtomicInteger atomicInteger = new AtomicInteger();
         System.out.println( atomicInteger.get());
-        atomicInteger.compareAndSet(0,2);
+        atomicInteger.compareAndSet(1,2);
         System.out.println( atomicInteger.get());
        // atomicInteger.compareAndSet()
 
